@@ -41,6 +41,12 @@ module "NAME_OF_MODULE" {
 
 - Utilizar tabela do DynamoDB como lock table (Não permitir concorrência de execuções do Terraform) [https://quileswest.medium.com/how-to-lock-terraform-state-with-s3-bucket-in-dynamodb-3ba7c4e637]
 
+## Validation
+
+- Reaplicar o Terraform sem efetuar alterações no código e garantir a idempotência (No Changes)
+- Reaplicar o Terraform alterando algo no código e validar a alteração no console
+- Executar o Terraform Destroy
+
 ## ```Challenge Number 2```
 
 - Developing...
