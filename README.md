@@ -2,7 +2,7 @@
 
 ### Requirements
 - AWS CLI [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html]
-- tfenv [https://github.com/tfutils/tfenv]
+- tfenv [https://github.com/tfutils/tfenv] (Optional)
 - Conta AWS utilizada para testes
 
 ## ```Challenge Number 1```
